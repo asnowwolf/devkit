@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --extract-css -p 0 --open",
+    "start": "ng serve --extract-css --proxy-config=app-proxy.js -p 0 --open",
     "build": "ng build --extract-css -prod",
     "test": "ng test",
     "lint": "ng lint",
